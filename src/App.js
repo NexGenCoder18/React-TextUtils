@@ -36,13 +36,13 @@ function App() {
 
   return (
     <>
-      <Router basename="/TextUtils-React ">
+      <Router basename="/TextUtils-React">
         <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <Routes>
           <Route
             exact
-            path="/"
+            path="/TextUtils-React"
             element={
               <TextForm
                 showAlert={showAlert}
